@@ -1,0 +1,105 @@
+body{
+    background-color:aquamarine;
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+nav{
+    font-family:Arial,  sans-serif
+    /* align-items: center ; */
+   
+}
+nav ul{
+    display: flex;                       /* make horiztal all items in nav ul*/
+    list-style-type: none;
+    align-items: center;
+    height: 70px;
+    background-color: black;
+    color: aliceblue;
+}
+nav ul li{
+    padding: 10px;
+}
+
+.Brand_Icon img{
+    width: 52px; 
+    padding: 10px;
+}
+.Brand_Icon{
+    display: flex;                       /* spotify name will get in center*/
+    align-items: center;
+    font-weight: bolder;
+    font-size: 1.3rem;
+}
+.container{
+    /* margin-top: 150px; */
+    min-height: 75vh;
+    background-color: black;
+    color: white;
+    margin: 15px auto;  /*auto will to center*/
+    display: flex;
+    width: 70%;
+    border-radius: 12px;
+    padding: 2px;
+    background-image: url('1.webp');
+    /* background-attachment: fixed; */
+}
+.songsListcontainer{
+    margin-top: 25px;
+}
+
+.bottom{
+    /* position: sticky; */
+    height: 50px;
+     background-color: black;
+     color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 15px;
+    flex-direction: column;
+}
+.bottom input{
+    cursor: pointer;
+    width: 95vw;
+}
+.bottom i{
+    cursor:pointer;
+    margin-top: 15px;
+    padding-right: 75px;
+}
+
+.songItem{
+    background-color: white;
+    color: black;
+    height: 50px;
+    width: 80%;
+    border-radius: 34px;
+    display: flex;
+    margin: 12px 0;
+    justify-content: space-between;      /* space between contains*/
+    align-items: center;
+    
+}
+.songItem img{
+    width: 63px;
+    margin: 0 13px;
+    border-radius: 34px;
+
+}
+.songItem i{
+    padding: 15px;
+    cursor: pointer;
+}
+.songGif{
+    position: absolute;
+    left: 5vw;
+}
+.songGif img{
+    width: 37px;
+    margin-top: 15px;
+    margin-right: 15px;
+    opacity: 0;
+    transition: 1s ease 0;
+}
