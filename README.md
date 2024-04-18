@@ -1,1 +1,1 @@
-Run html file in vscode as "GoLive" whiche redirect web page.
+Run html file in vscode as "GoLive" which redirect web page and enjoy song.
